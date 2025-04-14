@@ -1,5 +1,6 @@
 
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,9 +8,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="text-gold font-playfair text-2xl font-bold">
-            AQUA LUXE
-          </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/c7dbe9e1-4988-4f5c-a3ee-e79aacd8214c.png" 
+              alt="Luxury Jet Ski Rentals" 
+              className="h-12 w-auto object-contain"
+            />
+          </Link>
           
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-8">
