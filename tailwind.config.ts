@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,9 +25,6 @@ export default {
 			},
 			colors: {
 				gold: '#FFD700',
-			},
-		extend: {
-			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

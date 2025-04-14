@@ -9,19 +9,19 @@ const products = [
     title: "FX Cruiser SVHO",
     price: 400,
     brand: "Yamaha",
-    image: "/images/jet-ski-1.jpg"
+    image: "/lovable-uploads/jet-ski-1.jpg"
   },
   {
     title: "Waverunner VX",
     price: 400,
     brand: "Yamaha",
-    image: "/images/jet-ski-2.jpg"
+    image: "/lovable-uploads/jet-ski-2.jpg"
   },
   {
     title: "GTR X 230(Gold)",
     price: 650,
     brand: "Sea-Doo",
-    image: "/images/jet-ski-3.jpg"
+    image: "/lovable-uploads/jet-ski-3.jpg"
   }
 ];
 
