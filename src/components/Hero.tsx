@@ -8,7 +8,7 @@ const Hero = () => {
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat"
     }}>
-        <div className="absolute inset-0 bg-black/50 py-0" />
+        
       </div>
 
       {/* Content */}
